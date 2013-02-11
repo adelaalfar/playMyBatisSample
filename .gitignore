@@ -1,15 +1,26 @@
-logs
+syntax: glob
+
+# general
+*~
+todo.txt
+
+# Eclipse
+.settings
+.cache
+.project
+.classpath
+bin
+
+# IDEA
+/.idea
+/.idea_modules
+
+# SBT
+dist
 project/project
 project/target
 target
-tmp
-.history
-dist
-/.idea
-/*.iml
-/out
-/.idea_modules
-/.classpath
-/.project
-/RUNNING_PID
-/.settings
+.target
+
+# Play
+logs
