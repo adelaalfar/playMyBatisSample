@@ -9,6 +9,8 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     // Add your project dependencies here,
+	"org.mybatis" % "mybatis" % "3.1.1",
+	"org.mybatis" % "mybatis-guice" % "3.3",
     javaCore,
     javaJdbc,
     javaEbean
